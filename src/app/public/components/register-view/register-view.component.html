@@ -1,1 +1,57 @@
-<p>register-view works!</p>
+<div class="container">
+  <div class="registration-form">
+    <form class="reg-form">
+      <table class="field-full-width">
+        <h1>Registrate</h1>
+        <tr>
+          <td>
+            <mat-form-field class="field-full-width transparent-background">
+              <mat-label>Nombres</mat-label>
+              <input matInput>
+            </mat-form-field>
+          </td>
+          <td>
+            <mat-form-field class="field-full-width transparent-background">
+              <mat-label>Apellidos</mat-label>
+              <input matInput>
+            </mat-form-field>
+          </td>
+        </tr>
+      </table>
+      <p>
+        <mat-form-field class="field-full-width transparent-background">
+          <mat-label>Correo Electronico</mat-label>
+          <input matInput placeholder="Example@example.com">
+        </mat-form-field>
+        <mat-form-field class="field-full-width transparent-background">
+          <mat-label>Contraseña</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+        <mat-form-field class="field-full-width transparent-background">
+          <mat-label>Confirmar Contraseña</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+      </p>
+
+      <mat-checkbox class="example-margin"><p>Acepto los términos y condiciones</p></mat-checkbox>
+      <br>
+      <mat-slide-toggle class="slide-toggle black-text">
+        <p>¿Es una cuenta de veterinario?</p>
+      </mat-slide-toggle>
+
+      <div class="register-button-container">
+        <button mat-flat-button class="full-width-button" color="accent" routerLink="/home">Registrate</button>
+        <p class="redirect-label"><a href="/login">¿Ya tienes una cuenta?</a></p>
+      </div>
+    </form>
+  </div>
+  <div class="registration-image">
+    <img src="assets/login-register-dog.jpg" alt="login-register-dog-image">
+  </div>
+</div>
