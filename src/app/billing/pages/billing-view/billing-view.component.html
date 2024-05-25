@@ -1,1 +1,163 @@
-<p>billing-view works!</p>
+<div class="contenedor">
+
+  <div class="colum2">
+    <mat-card class="card1">
+      <mat-card-header>
+        <mat-card-title>Mi carrito</mat-card-title>
+
+      </mat-card-header>
+      <mat-card-content>
+
+        <table>
+          <thead>
+          <tr>
+
+
+            <th>Producto</th>
+
+            <th>Nombre</th>
+
+            <th>Precio</th>
+
+          </tr>
+          </thead>
+          <tbody>
+          <tr *ngFor="let product of products">
+
+
+            <td><img [src]="product.imgUrl" alt="Imagen"/></td>
+
+            <td>{{ product.nombre }}</td>
+
+            <td>{{ product.precio }}</td>
+
+            <td>
+              <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
+                <mat-icon>delete</mat-icon>
+              </button>
+            </td>
+
+
+          </tr>
+
+          <mat-card-actions>
+            <mat-button-toggle>+</mat-button-toggle>
+            <mat-button-toggle>-</mat-button-toggle>
+          </mat-card-actions>
+          </tbody>
+
+          <tbody>
+          <tr *ngFor="let product of products">
+
+
+            <td><img [src]="product.imgUrl" alt="Imagen"/></td>
+
+            <td>{{ product.nombre }}</td>
+
+            <td>{{ product.precio }}</td>
+
+            <td>
+              <button mat-fab color="primary" aria-label="Example icon button with a delete icon">
+                <mat-icon>delete</mat-icon>
+              </button>
+            </td>
+
+          </tr>
+
+          <tr>
+            <mat-button-toggle>+</mat-button-toggle>
+            <mat-button-toggle>-</mat-button-toggle>
+          </tr>
+          </tbody>
+        </table>
+        <br>
+        <form class="example-form">
+          <mat-form-field class="example-full-width">
+            <mat-label>Insert discount code</mat-label>
+            <input matInput placeholder="12345abc" value="Code">
+            <mat-button-toggle class="discount">Apply</mat-button-toggle>
+          </mat-form-field>
+
+          <table>
+            <thead>
+            <tr>
+              <th class="texto">Subtotal</th>
+
+              <th class="precio"> S/160.00</th>
+
+            </tr>
+
+            <mat-divider></mat-divider>
+
+            <tr>
+              <th class="texto">Descuento</th>
+
+              <th class="precio"> S/0.00</th>
+            </tr>
+            <mat-divider></mat-divider>
+            <tr>
+              <th class="texto">TOTAL</th>
+
+              <th class="precio"> S/160.00</th>
+            </tr>
+            <mat-divider></mat-divider>
+            </thead>
+          </table>
+
+        </form>
+      </mat-card-content>
+
+
+    </mat-card>
+  </div>
+  <div class="colum1">
+    <mat-card class="Mpago">
+      <mat-card-content>
+        <mat-card-title>Medios de Pago</mat-card-title>
+        <mat-radio-group>
+
+          <!-- Utiliza ngFor para iterar sobre los métodos -->
+          <mat-radio-button class="opciones" *ngFor="let method of methods" class="example-radio-button" [value]="method">{{ method }}</mat-radio-button>
+        </mat-radio-group>
+        <br>
+        <br>
+        <div class="example-container">
+          <mat-form-field>
+            <mat-label>Enter your card number</mat-label>
+            <input matInput [type]="hide ? 'password' : 'text'">
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide code'" [attr.aria-pressed]="hide">
+              <mat-icon>{{'visibility_off' }}</mat-icon>
+            </button>
+          </mat-form-field>
+
+          <form class="example-form">
+            <mat-form-field class="example-full-width">
+
+              <input matInput placeholder="Ex. 29/03" value="MM/YY">
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+
+              <input matInput placeholder="Ex. 12346" value="CVV">
+            </mat-form-field>
+
+
+          </form>
+
+
+
+        </div>
+
+
+
+
+
+
+      </mat-card-content>
+
+    </mat-card>
+  </div>
+
+
+</div>
+

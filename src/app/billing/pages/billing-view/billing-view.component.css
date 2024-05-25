@@ -1,0 +1,84 @@
+.contenedor {
+  display: flex;
+}
+
+.colum1, .colum2 {
+  flex: 1; /* Las columnas tomarán el mismo espacio */
+  padding: 10px; /* Añade espaciado alrededor de las columnas */
+}
+
+table img {
+  max-width: 60px;
+  max-height: 60px;
+
+
+}
+.mat-button-toggle{
+  margin: 3px;
+  border-radius: 7px;
+}
+
+.card1{
+  background-color: white;
+}
+tr, td{
+  padding: 30px;
+  border: 0px solid #ddd;
+}
+
+mat-card{
+  margin: 30px;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.discount{
+  background-color: cornflowerblue;
+  flex: 1;
+}
+
+.texto, .precio{
+  padding: 20px;
+  padding-right: 250px;
+  gap: 5px;
+  flex-direction: column;
+}
+
+mat-divider{
+  background-color: black;
+}
+
+.Mpago{
+  background-color: lightblue;
+}
+
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  align-items: flex-start;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+.opciones{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+}
+.notificacion{
+  margin: 10px;
+  background-color: cornflowerblue ;
+  border-radius: 7px;
+}
+

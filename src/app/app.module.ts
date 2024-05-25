@@ -40,6 +40,9 @@ import {MatToolbar} from "@angular/material/toolbar";
 import {MatGridList, MatGridTile} from "@angular/material/grid-list";
 import {NgOptimizedImage} from "@angular/common";
 import { NavbarComponent } from './shared/components/navbar/navbar.component';
+import {MatButtonToggle} from "@angular/material/button-toggle";
+import {MatDivider} from "@angular/material/divider";
+import {MatRadioButton, MatRadioGroup} from "@angular/material/radio";
 
 @NgModule({
   declarations: [
@@ -89,7 +92,11 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
     MatFormFieldModule,
     MatGridTile,
     MatGridList,
-    NgOptimizedImage
+    NgOptimizedImage,
+    MatButtonToggle,
+    MatDivider,
+    MatRadioGroup,
+    MatRadioButton
   ],
   providers: [
     provideAnimationsAsync()
