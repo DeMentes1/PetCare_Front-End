@@ -1,0 +1,84 @@
+.profile-container {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ccc; /* Puedes usar el color que desees */
+  margin-bottom: 20px;
+}
+
+input.mat-input-element {
+  margin-bottom: 10px;
+}
+
+.mat-form-field {
+  margin-bottom: 70px; /* Ajusta el espacio entre las cajas de texto */
+}
+
+.mat-form-field label {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0; /* Agrega un tono grisáceo transparente al fondo */
+  padding: 5px; /* Añade un poco de espacio alrededor del texto */
+  border-radius: 4px; /* Redondea las esquinas */
+}
+
+.mat-form-field .mat-label {
+  position: relative;
+  top: -50%;
+  transform: translateY(-50%);
+}
+
+h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.example-full-width {
+  width: calc(100%);
+  height: 50px;
+}
+
+.example-form {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-top: 10px;
+}
+.save-button-container {
+  background-color: #06897D; /* Verde agua */
+  color: white;
+  padding: 8px 16px; /* Ajusta el espaciado interno según sea necesario */
+  font-size: 14px;
+  border-radius: 4px; /* Redondea las esquinas */
+  text-align: center;
+  height: auto;
+}
+
+.save-button-container button {
+  color: white; /* Cambia el color del texto a blanco */
+  border: none; /* Elimina el borde del botón */
+  outline: none; /* Elimina el contorno al enfocar */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+  background-color: transparent; /* Hace que el fondo del botón sea transparente */
+  transition: background-color 0.3s ease; /* Agrega una transición suave */
+}
+
+.save-button-container button:hover {
+  background-color: rgb(7, 166, 152); /* Cambia el color de fondo al pasar el ratón sobre el botón */
+}
+

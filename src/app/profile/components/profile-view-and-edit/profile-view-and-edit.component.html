@@ -1,1 +1,54 @@
-<p>profile-view-and-edit works!</p>
+<div class="profile-container">
+  <h2>Foto de perfil</h2>
+  <div class="profile-picture">
+    <!-- Aquí puedes mostrar la foto de perfil del usuario en un círculo -->
+  </div>
+  <mat-divider></mat-divider>
+
+  <h2>Detalles de usuario</h2>
+  <h3>Nombres</h3>
+  <table class="example-full-width" [cellSpacing]="10">
+    <tr>
+      <td><mat-form-field class="example-full-width">
+        <mat-label>Nombres</mat-label>
+        <input matInput>
+      </mat-form-field></td>
+      <td><mat-form-field class="example-full-width">
+        <mat-label>Apellidos</mat-label>
+        <input matInput>
+      </mat-form-field></td>
+    </tr>
+  </table>
+
+  <h3>Teléfono</h3>
+  <form class="example-form">
+    <mat-form-field class="example-full-width" style="margin-top: 10px;">
+      <mat-label>Teléfono</mat-label>
+      <span matTextPrefix>+51 &nbsp;</span>
+      <input type="tel" matInput placeholder="987-654-321">
+      <mat-icon matSuffix>mode_edit</mat-icon>
+    </mat-form-field>
+  </form>
+
+
+  <h3>Correo electrónico</h3>
+  <form class="example-form">
+    <mat-form-field class="example-full-width" style="margin-bottom: 20px;">
+      <mat-label>Email</mat-label>
+      <textarea matInput placeholder="@gmail.com">&#64;gmail.com</textarea>
+      <input type="email" matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher"
+             placeholder="Ex. pat@example.com">
+      <mat-hint>¡Los errores aparecen al instante!</mat-hint>
+      <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+        Por favor, introduce una dirección de correo electrónico válida
+      </mat-error>
+      <mat-error *ngIf="emailFormControl.hasError('required')">
+        El correo electrónico es <strong>obligatorio</strong>
+      </mat-error>
+    </mat-form-field>
+  </form>
+
+  <div class="save-button-container">
+    <button mat-raised-button color="primary">Guardar</button>
+  </div>
+</div>
