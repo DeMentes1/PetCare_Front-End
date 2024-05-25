@@ -11,7 +11,7 @@ describe('ProfileViewAndEditComponent', () => {
       declarations: [ProfileViewAndEditComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(ProfileViewAndEditComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
