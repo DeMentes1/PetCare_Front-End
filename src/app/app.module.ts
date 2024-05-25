@@ -22,7 +22,23 @@ import { NotFoundComponent } from './public/pages/not-found/not-found.component'
 import { PaymentConfirmationComponent } from './public/pages/payment-confirmation/payment-confirmation.component';
 import { LoginViewComponent } from './public/components/login-view/login-view.component';
 import { RegisterViewComponent } from './public/components/register-view/register-view.component';
-import {MatCard, MatCardContent} from "@angular/material/card";
+import {
+  MatCard,
+  MatCardActions,
+  MatCardContent,
+  MatCardModule,
+  MatCardSubtitle,
+  MatCardTitle
+} from "@angular/material/card";
+import {MatFormField, MatFormFieldModule, MatHint, MatLabel} from "@angular/material/form-field";
+import {MatInput} from "@angular/material/input";
+import {MatIcon, MatIconModule} from "@angular/material/icon";
+import {MatButton, MatButtonModule, MatFabButton, MatIconButton} from "@angular/material/button";
+import {MatCheckbox} from "@angular/material/checkbox";
+import {MatSlideToggle} from "@angular/material/slide-toggle";
+import {MatToolbar} from "@angular/material/toolbar";
+import {MatGridList, MatGridTile} from "@angular/material/grid-list";
+import {NgOptimizedImage} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -49,8 +65,29 @@ import {MatCard, MatCardContent} from "@angular/material/card";
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatFormField,
+    MatInput,
+    MatIcon,
+    MatIconModule,
+    MatIconButton,
+    MatCheckbox,
+    MatSlideToggle,
+    MatButton,
+    MatButtonModule,
+    MatLabel,
     MatCard,
-    MatCardContent
+    MatCardModule,
+    MatCardContent,
+    MatFabButton,
+    MatCardActions,
+    MatCardTitle,
+    MatCardSubtitle,
+    MatToolbar,
+    MatHint,
+    MatFormFieldModule,
+    MatGridTile,
+    MatGridList,
+    NgOptimizedImage
   ],
   providers: [
     provideAnimationsAsync()

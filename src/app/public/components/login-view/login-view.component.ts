@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './login-view.component.css'
 })
 export class LoginViewComponent {
-
+  hide = true;
 }
