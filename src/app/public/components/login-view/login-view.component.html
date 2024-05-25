@@ -1,1 +1,31 @@
-<p>login-view works!</p>
+<div class="container">
+  <div class="registration-form">
+    <form class="reg-form">
+      <h1>Iniciar Sesion</h1>
+      <p>
+        <mat-form-field class="field-full-width transparent-background">
+          <mat-label>Correo Electronico</mat-label>
+          <input matInput placeholder="Example@example.com">
+        </mat-form-field>
+        <mat-form-field class="field-full-width transparent-background">
+          <mat-label>Contraseña</mat-label>
+          <input matInput [type]="hide ? 'password' : 'text'">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+        </mat-form-field>
+      </p>
+
+      <mat-checkbox class="checkbox-margin"><p>Recuerdame</p></mat-checkbox>
+      <a class="forgot-password" href="/forgotpassword">Olvidaste tu contraseña?</a>
+
+      <div class="register-button-container">
+        <button mat-flat-button class="full-width-button" color="accent" routerLink="/home">Iniciar Sesion</button>
+        <p class="redirect-label"><a href="/signup">¿No tienes cuenta? Regístrate</a></p>
+      </div>
+    </form>
+  </div>
+  <div class="registration-image">
+    <img src="assets/login-register-dog.jpg" alt="login-register-dog-image">
+  </div>
+</div>
