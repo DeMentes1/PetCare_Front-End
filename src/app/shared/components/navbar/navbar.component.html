@@ -1,0 +1,26 @@
+<mat-toolbar>
+  <div class="logo">
+    <img mat-card-image src="../../../../assets/logo1.png" alt="logo">
+  </div>
+  <div>
+    <a mat-button class="action-button" routerLink="/home">Inicio</a>
+    <a mat-button class="action-button" routerLink="/services">Servicios</a>
+    <a mat-button class="action-button" routerLink="/veterinary">Veterinarias</a>
+    <a mat-button class="action-button" routerLink="/products">Productos</a>
+    <a mat-button class="action-button" routerLink="/booking">Citas</a>
+    <a mat-button class="action-button" routerLink="/contact-us">Contáctanos</a>
+    <!--<a [routerLink]="[]" (click)="clickMethod()">Your Link</a>-->
+  </div>
+  <span class="example-spacer"></span>
+  <div>
+    <button mat-icon-button class="shopping-cart-icon" aria-label="Example icon-button with shopping cart icon">
+      <mat-icon>shopping_cart</mat-icon>
+    </button>
+    <button mat-icon-button class="settings-icon" aria-label="Example icon-button with settings cart icon">
+      <mat-icon>settings</mat-icon>
+    </button>
+    <button mat-icon-button class="account-circle" aria-label="Example icon-button with account circle icon">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>

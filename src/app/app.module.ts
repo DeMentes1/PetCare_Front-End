@@ -39,6 +39,7 @@ import {MatSlideToggle} from "@angular/material/slide-toggle";
 import {MatToolbar} from "@angular/material/toolbar";
 import {MatGridList, MatGridTile} from "@angular/material/grid-list";
 import {NgOptimizedImage} from "@angular/common";
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import {NgOptimizedImage} from "@angular/common";
     NotFoundComponent,
     PaymentConfirmationComponent,
     LoginViewComponent,
-    RegisterViewComponent
+    RegisterViewComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
