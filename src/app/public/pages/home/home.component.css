@@ -1,0 +1,32 @@
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../../../../assets/background-dog.png");
+  background-size: cover;
+  background-position: center;
+  /*min-height: 531px;*/
+  height:100%;
+  overflow: hidden;
+}
+
+mat-card {
+  background-color: rgba(0, 0, 0, 0.375);
+  color: white;
+  padding: 24px;
+}
+
+mat-card h1 {
+  font-size: 3.56rem;
+  font-weight: lighter;
+}
+
+mat-card p {
+  font-size: 1.68rem;
+
+}
+
+button {
+  background-color: #3B9C9C !important;
+}
