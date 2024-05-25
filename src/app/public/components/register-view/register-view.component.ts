@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './register-view.component.css'
 })
 export class RegisterViewComponent {
-
+  hide = true;
 }
