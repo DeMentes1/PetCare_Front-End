@@ -8,6 +8,9 @@ import { BookingViewComponent } from "./booking/pages/booking-view/booking-view.
 import { VeterinaryManagementComponent } from "./veterinary/pages/veterinary-management/veterinary-management.component";
 import { RequestViewComponent } from "./support/pages/request-view/request-view.component";
 import { NotFoundComponent } from "./public/pages/not-found/not-found.component";
+import {ProductsViewComponent} from "./shop/pages/products-view/products-view.component";
+import {ProductsListComponent} from "./shop/components/products-list/products-list.component";
+import {VeterinaryListComponent} from "./veterinary/components/veterinary-list/veterinary-list.component";
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -15,7 +18,8 @@ const routes: Routes = [
   { path: 'login', component: LoginViewComponent },
   { path: 'signup', component: RegisterViewComponent },
   { path: 'services', component: ServicesContentViewComponent },
-  { path: 'veterinary', component: VeterinaryManagementComponent },
+  { path: 'veterinary', component: VeterinaryListComponent },
+  { path: 'products', component: ProductsListComponent },
   { path: 'contact-us', component: RequestViewComponent },
   { path: '', pathMatch: 'full', redirectTo: 'login' },
   { path: '**', component: NotFoundComponent },

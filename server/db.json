@@ -1,129 +1,129 @@
 {
 	"vets": [
   {
-    "vet-name": "Pet Wellness Center",
-    "vet-service": "Comprehensive Wellness Exams",
-    "vet-description": "Dedicated to keeping your pet healthy and happy."
+    "nameVet": "Pet Wellness Center",
+    "serviceVet": "Comprehensive Wellness Exams",
+    "descriptionVet": "Dedicated to keeping your pet healthy and happy."
   },
   {
-    "vet-name": "VetCare Specialists",
-    "vet-service": "Emergency Care",
-    "vet-description": "Providing urgent care for pets in critical situations."
+    "nameVet": "VetCare Specialists",
+    "serviceVet": "Emergency Care",
+    "descriptionVet": "Providing urgent care for pets in critical situations."
   },
   {
-    "vet-name": "Furry Friends Clinic",
-    "vet-service": "Dental Health Services",
-    "vet-description": "Ensuring your pet's teeth are clean and strong."
+    "nameVet": "Furry Friends Clinic",
+    "serviceVet": "Dental Health Services",
+    "descriptionVet": "Ensuring your pet's teeth are clean and strong."
   },
   {
-    "vet-name": "Happy Paws Veterinary Hospital",
-    "vet-service": "Surgical Procedures",
-    "vet-description": "Skilled surgeons ready to help your pet when needed."
+    "nameVet": "Happy Paws Veterinary Hospital",
+    "serviceVet": "Surgical Procedures",
+    "descriptionVet": "Skilled surgeons ready to help your pet when needed."
   },
   {
-    "vet-name": "Loving Hearts Animal Clinic",
-    "vet-service": "Geriatric Pet Care",
-    "vet-description": "Caring for senior pets with compassion and expertise."
+    "nameVet": "Loving Hearts Animal Clinic",
+    "serviceVet": "Geriatric Pet Care",
+    "descriptionVet": "Caring for senior pets with compassion and expertise."
   },
   {
-    "vet-name": "Purrfect Care Veterinary Center",
-    "vet-service": "Comprehensive Wellness Exams",
-    "vet-description": "Where every pet receives personalized attention."
+    "nameVet": "Purrfect Care Veterinary Center",
+    "serviceVet": "Comprehensive Wellness Exams",
+    "descriptionVet": "Where every pet receives personalized attention."
   },
   {
-    "vet-name": "Emergency Vet Services",
-    "vet-service": "Emergency Care",
-    "vet-description": "Providing immediate assistance during pet emergencies."
+    "nameVet": "Emergency Vet Services",
+    "serviceVet": "Emergency Care",
+    "descriptionVet": "Providing immediate assistance during pet emergencies."
   },
   {
-    "vet-name": "SmileBright Pet Dentistry",
-    "vet-service": "Dental Health Services",
-    "vet-description": "Bringing sparkle to your pet's smile with advanced dental care."
+    "nameVet": "SmileBright Pet Dentistry",
+    "serviceVet": "Dental Health Services",
+    "descriptionVet": "Bringing sparkle to your pet's smile with advanced dental care."
   },
   {
-    "vet-name": "Healthy Pets Surgical Center",
-    "vet-service": "Surgical Procedures",
-    "vet-description": "Specializing in safe and effective surgical interventions."
+    "nameVet": "Healthy Pets Surgical Center",
+    "serviceVet": "Surgical Procedures",
+    "descriptionVet": "Specializing in safe and effective surgical interventions."
   },
   {
-    "vet-name": "Senior Pet Haven",
-    "vet-service": "Geriatric Pet Care",
-    "vet-description": "Tailored care for aging pets to enhance their quality of life."
+    "nameVet": "Senior Pet Haven",
+    "serviceVet": "Geriatric Pet Care",
+    "descriptionVet": "Tailored care for aging pets to enhance their quality of life."
   },
   {
-    "vet-name": "Pet Wellness Center",
-    "vet-service": "Comprehensive Wellness Exams",
-    "vet-description": "Where preventive care meets exceptional service."
+    "nameVet": "Pet Wellness Center",
+    "serviceVet": "Comprehensive Wellness Exams",
+    "descriptionVet": "Where preventive care meets exceptional service."
   },
   {
-    "vet-name": "24/7 Emergency Vet",
-    "vet-service": "Emergency Care",
-    "vet-description": "Always here for your pet, day or night, rain or shine."
+    "nameVet": "24/7 Emergency Vet",
+    "serviceVet": "Emergency Care",
+    "descriptionVet": "Always here for your pet, day or night, rain or shine."
   },
   {
-    "vet-name": "Dental Delights Veterinary Clinic",
-    "vet-service": "Dental Health Services",
-    "vet-description": "Promoting healthy gums and teeth for your furry companion."
+    "nameVet": "Dental Delights Veterinary Clinic",
+    "serviceVet": "Dental Health Services",
+    "descriptionVet": "Promoting healthy gums and teeth for your furry companion."
   },
   {
-    "vet-name": "Surgical Solutions Animal Hospital",
-    "vet-service": "Surgical Procedures",
-    "vet-description": "Expert surgeons committed to your pet's well-being."
+    "nameVet": "Surgical Solutions Animal Hospital",
+    "serviceVet": "Surgical Procedures",
+    "descriptionVet": "Expert surgeons committed to your pet's well-being."
   },
   {
-    "vet-name": "Golden Years Veterinary Practice",
-    "vet-service": "Geriatric Pet Care",
-    "vet-description": "Supporting older pets in their golden years with tender care."
+    "nameVet": "Golden Years Veterinary Practice",
+    "serviceVet": "Geriatric Pet Care",
+    "descriptionVet": "Supporting older pets in their golden years with tender care."
   },
   {
-    "vet-name": "Caring Hands Wellness Clinic",
-    "vet-service": "Comprehensive Wellness Exams",
-    "vet-description": "Your partner in ensuring a long and healthy life for your pet."
+    "nameVet": "Caring Hands Wellness Clinic",
+    "serviceVet": "Comprehensive Wellness Exams",
+    "descriptionVet": "Your partner in ensuring a long and healthy life for your pet."
   },
   {
-    "vet-name": "Urgent Pet Care",
-    "vet-service": "Emergency Care",
-    "vet-description": "Swift and efficient care for your pet's urgent needs."
+    "nameVet": "Urgent Pet Care",
+    "serviceVet": "Emergency Care",
+    "descriptionVet": "Swift and efficient care for your pet's urgent needs."
   },
   {
-    "vet-name": "Bright Smiles Pet Dentistry",
-    "vet-service": "Dental Health Services",
-    "vet-description": "Keeping your pet's teeth bright and breath fresh."
+    "nameVet": "Bright Smiles Pet Dentistry",
+    "serviceVet": "Dental Health Services",
+    "descriptionVet": "Keeping your pet's teeth bright and breath fresh."
   },
   {
-    "vet-name": "Advanced Surgical Solutions",
-    "vet-service": "Surgical Procedures",
-    "vet-description": "State-of-the-art surgical care for your beloved pet."
+    "nameVet": "Advanced Surgical Solutions",
+    "serviceVet": "Surgical Procedures",
+    "descriptionVet": "State-of-the-art surgical care for your beloved pet."
   },
   {
-    "vet-name": "Elderly Pet Care Specialists",
-    "vet-service": "Geriatric Pet Care",
-    "vet-description": "Dedicated to improving the lives of senior pets and their owners."
+    "nameVet": "Elderly Pet Care Specialists",
+    "serviceVet": "Geriatric Pet Care",
+    "descriptionVet": "Dedicated to improving the lives of senior pets and their owners."
   },
   {
-    "vet-name": "Companion Animal Wellness Center",
-    "vet-service": "Comprehensive Wellness Exams",
-    "vet-description": "Where your pet's well-being is our top priority."
+    "nameVet": "Companion Animal Wellness Center",
+    "serviceVet": "Comprehensive Wellness Exams",
+    "descriptionVet": "Where your pet's well-being is our top priority."
   },
   {
-    "vet-name": "Emergency Veterinary Care",
-    "vet-service": "Emergency Care",
-    "vet-description": "Rapid response and expert care during pet emergencies."
+    "nameVet": "Emergency Veterinary Care",
+    "serviceVet": "Emergency Care",
+    "descriptionVet": "Rapid response and expert care during pet emergencies."
   },
   {
-    "vet-name": "Dental Health Experts",
-    "vet-service": "Dental Health Services",
-    "vet-description": "Your partner in maintaining your pet's oral hygiene."
+    "nameVet": "Dental Health Experts",
+    "serviceVet": "Dental Health Services",
+    "descriptionVet": "Your partner in maintaining your pet's oral hygiene."
   },
   {
-    "vet-name": "Surgical Specialists",
-    "vet-service": "Surgical Procedures",
-    "vet-description": "Trusted expertise for your pet's surgical needs."
+    "nameVet": "Surgical Specialists",
+    "serviceVet": "Surgical Procedures",
+    "descriptionVet": "Trusted expertise for your pet's surgical needs."
   },
   {
-    "vet-name": "Golden Age Pet Clinic",
-    "vet-service": "Geriatric Pet Care",
-    "vet-description": "Caring for your senior pet with compassion and dedication."
+    "nameVet": "Golden Age Pet Clinic",
+    "serviceVet": "Geriatric Pet Care",
+    "descriptionVet": "Caring for your senior pet with compassion and dedication."
   }
 ],
 
