@@ -43,6 +43,9 @@ import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import {MatButtonToggle} from "@angular/material/button-toggle";
 import {MatDivider} from "@angular/material/divider";
 import {MatRadioButton, MatRadioGroup} from "@angular/material/radio";
+import { ProductsSearchBarComponent } from './shop/components/products-search-bar/products-search-bar.component';
+import { FilterMenuComponent } from './shop/components/filter-menu/filter-menu.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -57,7 +60,6 @@ import {MatRadioButton, MatRadioGroup} from "@angular/material/radio";
     BillingViewComponent,
     RequestAddComponent,
     RequestViewComponent,
-    ProfileViewAndEditComponent,
     ProductsListComponent,
     ProductsViewComponent,
     HomeComponent,
@@ -65,7 +67,9 @@ import {MatRadioButton, MatRadioGroup} from "@angular/material/radio";
     PaymentConfirmationComponent,
     LoginViewComponent,
     RegisterViewComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProductsSearchBarComponent,
+    FilterMenuComponent
   ],
   imports: [
     BrowserModule,
@@ -96,7 +100,9 @@ import {MatRadioButton, MatRadioGroup} from "@angular/material/radio";
     MatButtonToggle,
     MatDivider,
     MatRadioGroup,
-    MatRadioButton
+    MatRadioButton,
+    ProfileViewAndEditComponent,
+    HttpClientModule
   ],
   providers: [
     provideAnimationsAsync()

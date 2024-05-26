@@ -127,156 +127,181 @@
   }
 ],
 
-"products": [
-  {
-    "product-name": "Pet Shampoo",
-    "product-description": "Keep your pet's coat clean and healthy with our gentle yet effective pet shampoo.",
-    "product-price": "30.00",
-    "product-category": "Cleaning Products"
-  },
-  {
-    "product-name": "Dog Food",
-    "product-description": "Nutritious and delicious dog food formulated to meet your pet's dietary needs.",
-    "product-price": "50.00",
-    "product-category": "Pet Food"
-  },
-  {
-    "product-name": "Cat Toy",
-    "product-description": "Entertain your feline friend with this fun and interactive cat toy.",
-    "product-price": "15.00",
-    "product-category": "Pet Toys"
-  },
-  {
-    "product-name": "Pet Bed",
-    "product-description": "Provide your pet with a cozy place to rest and relax with our comfortable pet bed.",
-    "product-price": "60.00",
-    "product-category": "Pet Accessories"
-  },
-  {
-    "product-name": "Fish Food",
-    "product-description": "High-quality fish food to keep your aquatic friends healthy and vibrant.",
-    "product-price": "20.00",
-    "product-category": "Aquarium Supplies"
-  },
-  {
-    "product-name": "Bird Cage",
-    "product-description": "Spacious and durable bird cage for your feathered companion's comfort and safety.",
-    "product-price": "80.00",
-    "product-category": "Pet Accessories"
-  },
-  {
-    "product-name": "Small Animal Treats",
-    "product-description": "Delicious treats for your small furry friends to enjoy as rewards or snacks.",
-    "product-price": "10.00",
-    "product-category": "Pet Treats"
-  },
-  {
-    "product-name": "Reptile Heat Lamp",
-    "product-description": "Provide the ideal basking spot for your reptile with our reliable heat lamp.",
-    "product-price": "35.00",
-    "product-category": "Reptile Supplies"
-  },
-  {
-    "product-name": "Pet Carrier",
-    "product-description": "Sturdy and comfortable pet carrier for safe travels with your beloved pet.",
-    "product-price": "40.00",
-    "product-category": "Pet Accessories"
-  },
-  {
-    "product-name": "Hamster Wheel",
-    "product-description": "Encourage your hamster's activity and exercise with this durable hamster wheel.",
-    "product-price": "12.00",
-    "product-category": "Small Animal Supplies"
-  },
-  {
-    "product-name": "Dog Leash",
-    "product-description": "Walk your dog in style and control with our strong and reliable dog leash.",
-    "product-price": "25.00",
-    "product-category": "Pet Accessories"
-  },
-  {
-    "product-name": "Cat Litter",
-    "product-description": "Keep your cat's litter box clean and odor-free with our premium cat litter.",
-    "product-price": "18.00",
-    "product-category": "Cleaning Products"
-  },
-  {
-    "product-name": "Pet Grooming Kit",
-    "product-description": "All-in-one grooming kit for keeping your pet looking and feeling their best.",
-    "product-price": "55.00",
-    "product-category": "Pet Care Supplies"
-  },
-  {
-    "product-name": "Dog Chew Toy",
-    "product-description": "Durable and entertaining chew toy to keep your dog busy and satisfied.",
-    "product-price": "22.00",
-    "product-category": "Pet Toys"
-  },
-  {
-    "product-name": "Cat Scratching Post",
-    "product-description": "Protect your furniture and provide your cat with an outlet for scratching with our cat scratching post.",
-    "product-price": "28.00",
-    "product-category": "Pet Accessories"
-  },
-  {
-    "product-name": "Bird Food",
-    "product-description": "Nutritious bird food to keep your feathered friend healthy and happy.",
-    "product-price": "15.00",
-    "product-category": "Bird Supplies"
-  },
-  {
-    "product-name": "Turtle Tank",
-    "product-description": "Spacious tank for your aquatic turtle's habitat, complete with basking area and filter.",
-    "product-price": "70.00",
-    "product-category": "Reptile Supplies"
-  },
-  {
-    "product-name": "Small Animal Cage",
-    "product-description": "Comfortable and secure cage for your small pet's home, with multiple levels for exploration.",
-    "product-price": "75.00",
-    "product-category": "Small Animal Supplies"
-  },
-  {
-    "product-name": "Dog Training Treats",
-    "product-description": "Delicious and nutritious treats to reward your dog during training sessions.",
-    "product-price": "16.00",
-    "product-category": "Pet Treats"
-  },
-  {
-    "product-name": "Fish Tank Decorations",
-    "product-description": "Add color and interest to your aquarium with our variety of fish tank decorations.",
-    "product-price": "30.00",
-    "product-category": "Aquarium Supplies"
-  },
-  {
-    "product-name": "Bird Cage Accessories",
-    "product-description": "Enhance your bird's cage with our selection of accessories, including perches and toys.",
-    "product-price": "20.00",
-    "product-category": "Bird Supplies"
-  },
-  {
-    "product-name": "Reptile Bedding",
-    "product-description": "Provide your reptile with a comfortable and naturalistic bedding material for their enclosure.",
-    "product-price": "25.00",
-    "product-category": "Reptile Supplies"
-  },
-  {
-    "product-name": "Small Animal Hay",
-    "product-description": "High-quality hay for your small herbivorous pets to promote dental and digestive health.",
-    "product-price": "10.00",
-    "product-category": "Small Animal Supplies"
-  },
-  {
-    "product-name": "Dog Collar",
-    "product-description": "Keep your dog safe and stylish with our durable and adjustable dog collar.",
-    "product-price": "20.00",
-    "product-category": "Pet Accessories"
-  },
-  {
-    "product-name": "Cat Bed",
-    "product-description": "Provide your cat with a cozy and private space to rest with our soft and plush cat bed.",
-    "product-price": "35.00",
-    "product-category": "Pet Accessories"
-  }
-]
+  "products": [
+    {
+      "id": 1,
+      "productName": "Pet Shampoo",
+      "productDescription": "Keep your pet's coat clean and healthy with our gentle yet effective pet shampoo.",
+      "productPrice": 30.00,
+      "productCategory": "Cleaning Products"
+    },
+    {
+      "id": 2,
+      "productName": "Dog Food",
+      "productDescription": "Nutritious and delicious dog food formulated to meet your pet's dietary needs.",
+      "productPrice": 50.00,
+      "productCategory": "Pet Food"
+    },
+    {
+      "id": 3,
+      "productName": "Cat Toy",
+      "productDescription": "Entertain your feline friend with this fun and interactive cat toy.",
+      "productPrice": 15.00,
+      "productCategory": "Pet Toys"
+    },
+    {
+      "id": 4,
+      "productName": "Pet Bed",
+      "productDescription": "Provide your pet with a cozy place to rest and relax with our comfortable pet bed.",
+      "productPrice": 60.00,
+      "productCategory": "Pet Accessories"
+    },
+    {
+      "id": 5,
+      "productName": "Fish Food",
+      "productDescription": "High-quality fish food to keep your aquatic friends healthy and vibrant.",
+      "productPrice": 20.00,
+      "productCategory": "Aquarium Supplies"
+    },
+    {
+      "id": 6,
+      "productName": "Bird Cage",
+      "productDescription": "Spacious and durable bird cage for your feathered companion's comfort and safety.",
+      "productPrice": 80.00,
+      "productCategory": "Pet Accessories"
+    },
+    {
+      "id": 7,
+      "productName": "Small Animal Treats",
+      "productDescription": "Delicious treats for your small furry friends to enjoy as rewards or snacks.",
+      "productPrice": 10.00,
+      "productCategory": "Pet Treats"
+    },
+    {
+      "id": 8,
+      "productName": "Reptile Heat Lamp",
+      "productDescription": "Provide the ideal basking spot for your reptile with our reliable heat lamp.",
+      "productPrice": 35.00,
+      "productCategory": "Reptile Supplies"
+    },
+    {
+      "id": 9,
+      "productName": "Pet Carrier",
+      "productDescription": "Sturdy and comfortable pet carrier for safe travels with your beloved pet.",
+      "productPrice": 40.00,
+      "productCategory": "Pet Accessories"
+    },
+    {
+      "id": 10,
+      "productName": "Hamster Wheel",
+      "productDescription": "Encourage your hamster's activity and exercise with this durable hamster wheel.",
+      "productPrice": 12.00,
+      "productCategory": "Small Animal Supplies"
+    },
+    {
+      "id": 11,
+      "productName": "Dog Leash",
+      "productDescription": "Walk your dog in style and control with our strong and reliable dog leash.",
+      "productPrice": 25.00,
+      "productCategory": "Pet Accessories"
+    },
+    {
+      "id": 12,
+      "productName": "Cat Litter",
+      "productDescription": "Keep your cat's litter box clean and odor-free with our premium cat litter.",
+      "productPrice": 18.00,
+      "productCategory": "Cleaning Products"
+    },
+    {
+      "id": 13,
+      "productName": "Pet Grooming Kit",
+      "productDescription": "All-in-one grooming kit for keeping your pet looking and feeling their best.",
+      "productPrice": 55.00,
+      "productCategory": "Pet Care Supplies"
+    },
+    {
+      "id": 14,
+      "productName": "Dog Chew Toy",
+      "productDescription": "Durable and entertaining chew toy to keep your dog busy and satisfied.",
+      "productPrice": 22.00,
+      "productCategory": "Pet Toys"
+    },
+    {
+      "id": 15,
+      "productName": "Cat Scratching Post",
+      "productDescription": "Protect your furniture and provide your cat with an outlet for scratching with our cat scratching post.",
+      "productPrice": 28.00,
+      "productCategory": "Pet Accessories"
+    },
+    {
+      "id": 16,
+      "productName": "Bird Food",
+      "productDescription": "Nutritious bird food to keep your feathered friend healthy and happy.",
+      "productPrice": 15.00,
+      "productCategory": "Bird Supplies"
+    },
+    {
+      "id": 17,
+      "productName": "Turtle Tank",
+      "productDescription": "Spacious tank for your aquatic turtle's habitat, complete with basking area and filter.",
+      "productPrice": 70.00,
+      "productCategory": "Reptile Supplies"
+    },
+    {
+      "id": 18,
+      "productName": "Small Animal Cage",
+      "productDescription": "Comfortable and secure cage for your small pet's home, with multiple levels for exploration.",
+      "productPrice": 75.00,
+      "productCategory": "Small Animal Supplies"
+    },
+    {
+      "id": 19,
+      "productName": "Dog Training Treats",
+      "productDescription": "Delicious and nutritious treats to reward your dog during training sessions.",
+      "productPrice": 16.00,
+      "productCategory": "Pet Treats"
+    },
+    {
+      "id": 20,
+      "productName": "Fish Tank Decorations",
+      "productDescription": "Add color and interest to your aquarium with our variety of fish tank decorations.",
+      "productPrice": 30.00,
+      "productCategory": "Aquarium Supplies"
+    },
+    {
+      "id": 21,
+      "productName": "Bird Cage Accessories",
+      "productDescription": "Enhance your bird's cage with our selection of accessories, including perches and toys.",
+      "productPrice": 20.00,
+      "productCategory": "Bird Supplies"
+    },
+    {
+      "id": 22,
+      "productName": "Reptile Bedding",
+      "productDescription": "Provide your reptile with a comfortable and naturalistic bedding material for their enclosure.",
+      "productPrice": 25.00,
+      "productCategory": "Reptile Supplies"
+    },
+    {
+      "id": 23,
+      "productName": "Small Animal Hay",
+      "productDescription": "High-quality hay for your small herbivorous pets to promote dental and digestive health.",
+      "productPrice": 10.00,
+      "productCategory": "Small Animal Supplies"
+    },
+    {
+      "id": 24,
+      "productName": "Dog Collar",
+      "productDescription": "Keep your dog safe and stylish with our durable and adjustable dog collar.",
+      "productPrice": 20.00,
+      "productCategory": "Pet Accessories"
+    },
+    {
+      "id": 25,
+      "productName": "Cat Bed",
+      "productDescription": "Provide your cat with a cozy and private space to rest with our soft and plush cat bed.",
+      "productPrice": 35.00,
+      "productCategory": "Pet Accessories"
+    }
+  ]
 }
