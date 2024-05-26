@@ -1,0 +1,18 @@
+
+mat-card-title, mat-card-subtitle {
+  margin: 0;
+}
+
+mat-card-content {
+  flex-grow: 1;
+}
+
+mat-grid-tile {
+  display: flex;
+  justify-content: center;
+}
+
+mat-card {
+  width: 100%;
+}
+

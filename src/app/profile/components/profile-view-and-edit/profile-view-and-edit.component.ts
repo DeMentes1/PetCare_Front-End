@@ -12,7 +12,7 @@ import {NgIf} from "@angular/common";
 @Component({
   selector: 'app-profile-view-and-edit',
   templateUrl: './profile-view-and-edit.component.html',
-  styleUrl: './profile-view-and-edit.component.css'
+  styleUrl: './profile-view-and-edit.component.css',
   standalone: true,
   imports: [FormsModule, MatFormFieldModule, MatInputModule, MatIcon, ReactiveFormsModule, MatButton, MatDivider, NgIf],
 })
@@ -22,7 +22,6 @@ export class ProfileViewAndEditComponent {
     Validators.email,
   ]);
   matcher = new MyErrorStateMatcher();
-}
 }
 
 export class MyErrorStateMatcher implements ErrorStateMatcher {
