@@ -1,0 +1,62 @@
+mat-toolbar {
+  padding: 110px 0 25px 80px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards-container {
+  margin: 45px 8px;
+  gap: 50px;
+}
+
+.filter-text {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+mat-card {
+  background-color: #E0FBFC;
+}
+
+.stars {
+  padding: 0 35px;
+  color: #dada2d;
+  gap: 7px;
+}
+
+.card-left {
+  /*padding: 10px 30px 0 80px;*/
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-right {
+  padding: 60px 80px 60px 30px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+img {
+  margin: auto;
+  padding: 20px 0 0;
+}
+
+.example-spacer {
+  flex:1 1 auto;
+}
+
+.reserve-button {
+  color: white !important;
+  flex:auto;
+  padding: 10px 30px;
+  background-color: #3B9C9C !important;
+}
