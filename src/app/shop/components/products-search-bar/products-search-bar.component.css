@@ -1,0 +1,19 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.filter-text {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.filter-list-icon {
+  margin-right: 8px;
+}
