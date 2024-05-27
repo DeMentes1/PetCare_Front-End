@@ -1,5 +1,7 @@
+<app-products-search-bar (searchChange)="filterProducts($event)"></app-products-search-bar>
+
 <mat-grid-list cols="3" gutterSize="16px">
-  <mat-grid-tile *ngFor="let product of products" [colspan]="1" [rowspan]="1">
+  <mat-grid-tile *ngFor="let product of filteredProducts" [colspan]="1" [rowspan]="1">
     <mat-card>
       <mat-card-header>
         <mat-card-title>{{ product.productName }}</mat-card-title>
