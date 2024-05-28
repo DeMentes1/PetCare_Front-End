@@ -1,1 +1,44 @@
-<p>request-add works!</p>
+<div class="support-container">
+  <!-- Columna izquierda con la imagen -->
+  <div class="left-column">
+    <img ngSrc="assets/support.png" alt="Imagen de soporte al cliente" height="384" width="335">
+  </div>
+
+  <!-- Columna derecha con el formulario de consulta -->
+  <div class="right-column">
+    <h1>Soporte al cliente</h1>
+    <h2>Escríbenos tu consulta</h2>
+    <div class="input-section">
+      <div class="input-row">
+        <div class="input-item">
+          <h3>Nombres</h3>
+          <mat-form-field class="example-full-width">
+            <mat-label>Nombres</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </div>
+        <div class="input-item">
+          <h3>Apellidos</h3>
+          <mat-form-field class="example-full-width">
+            <mat-label>Apellidos</mat-label>
+            <input matInput>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="input-row">
+        <div class="input-item">
+          <h3>Descripción</h3>
+          <mat-form-field class="example-full-width">
+            <mat-label>Descripción</mat-label>
+            <input matInput #message maxlength="256" placeholder="Ex. Necesito ayuda con...">
+            <mat-hint align="start"><strong>No reveles información personal</strong></mat-hint>
+            <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="send-button-container">
+        <button mat-raised-button color="primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
