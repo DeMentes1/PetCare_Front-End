@@ -11,6 +11,7 @@ import { NotFoundComponent } from "./public/pages/not-found/not-found.component"
 import {ProductsViewComponent} from "./shop/pages/products-view/products-view.component";
 import {ProductsListComponent} from "./shop/components/products-list/products-list.component";
 import {VeterinaryListComponent} from "./veterinary/components/veterinary-list/veterinary-list.component";
+import {BookingCreateComponent} from "./booking/components/booking-create/booking-create.component";
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },

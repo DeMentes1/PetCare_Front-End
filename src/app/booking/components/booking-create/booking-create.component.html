@@ -1,1 +1,40 @@
-<p>booking-create works!</p>
+<div class="booking-container">
+  <mat-card>
+    <form [formGroup]="bookingForm" (ngSubmit)="onSubmit()">
+      <mat-form-field appearance="fill">
+        <mat-label>Fecha de reserva</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="fechaReserva">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Nombre del dueño</mat-label>
+        <input matInput formControlName="nombreDueno">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Motivo de cita</mat-label>
+        <input matInput formControlName="motivoCita">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Tipo de servicio</mat-label>
+        <input matInput formControlName="tipoServicio">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Teléfono</mat-label>
+        <input matInput formControlName="telefono">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Detalles adicionales</mat-label>
+        <textarea matInput formControlName="detallesAdicionales"></textarea>
+      </mat-form-field>
+
+      <button mat-raised-button color="primary" type="submit">Reservar cita</button>
+    </form>
+  </mat-card>
+
+</div>

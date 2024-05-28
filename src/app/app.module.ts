@@ -47,6 +47,9 @@ import { ProductsSearchBarComponent } from './shop/components/products-search-ba
 import { FilterMenuComponent } from './shop/components/filter-menu/filter-menu.component';
 import { HttpClientModule } from '@angular/common/http';
 import {MatOption, MatSelect} from "@angular/material/select";
+import {MatDatepicker, MatDatepickerInput, MatDatepickerToggle} from "@angular/material/datepicker";
+import {ReactiveFormsModule} from "@angular/forms";
+import {MatNativeDateModule} from "@angular/material/core";
 
 @NgModule({
   declarations: [
@@ -105,7 +108,11 @@ import {MatOption, MatSelect} from "@angular/material/select";
     ProfileViewAndEditComponent,
     HttpClientModule,
     MatSelect,
-    MatOption
+    MatOption,
+    MatDatepickerToggle,
+    ReactiveFormsModule,
+    MatDatepicker,
+    MatDatepickerInput
   ],
   providers: [
     provideAnimationsAsync()
