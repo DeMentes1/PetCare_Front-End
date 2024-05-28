@@ -1,1 +1,8 @@
-<p>filter-menu works!</p>
+<mat-form-field appearance="fill">
+  <mat-label>Filter by Category</mat-label>
+  <mat-select (selectionChange)="onCategoryChange($event.value)">
+    <mat-option *ngFor="let category of categories" [value]="category">
+      {{ category }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>

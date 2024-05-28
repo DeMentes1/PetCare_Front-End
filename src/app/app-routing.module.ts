@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'signup', component: RegisterViewComponent },
   { path: 'services', component: ServicesContentViewComponent },
   { path: 'veterinary', component: VeterinaryListComponent },
-  { path: 'products', component: ProductsListComponent },
+  { path: 'products', component: ProductsViewComponent },
   { path: 'contact-us', component: RequestViewComponent },
   { path: '', pathMatch: 'full', redirectTo: 'login' },
   { path: '**', component: NotFoundComponent },

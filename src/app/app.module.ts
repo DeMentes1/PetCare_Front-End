@@ -46,6 +46,7 @@ import {MatRadioButton, MatRadioGroup} from "@angular/material/radio";
 import { ProductsSearchBarComponent } from './shop/components/products-search-bar/products-search-bar.component';
 import { FilterMenuComponent } from './shop/components/filter-menu/filter-menu.component';
 import { HttpClientModule } from '@angular/common/http';
+import {MatOption, MatSelect} from "@angular/material/select";
 
 @NgModule({
   declarations: [
@@ -102,7 +103,9 @@ import { HttpClientModule } from '@angular/common/http';
     MatRadioGroup,
     MatRadioButton,
     ProfileViewAndEditComponent,
-    HttpClientModule
+    HttpClientModule,
+    MatSelect,
+    MatOption
   ],
   providers: [
     provideAnimationsAsync()
