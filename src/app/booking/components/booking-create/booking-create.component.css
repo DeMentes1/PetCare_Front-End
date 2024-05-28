@@ -1,0 +1,20 @@
+.booking-container {
+  padding: 80px;
+}
+
+mat-card {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: #06897D !important;
+}
