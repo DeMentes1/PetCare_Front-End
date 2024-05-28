@@ -1,6 +1,9 @@
-<app-products-search-bar (searchChange)="filterProducts($event)"></app-products-search-bar>
+<mat-toolbar>
+  <app-products-search-bar (searchChange)="filterProducts($event)"></app-products-search-bar>
+  <app-filter-menu (categoryChange)="filterByCategory($event)"></app-filter-menu>
+</mat-toolbar>
 
-<mat-grid-list cols="3" gutterSize="16px">
+<mat-grid-list cols="3" rowHeight="4:3" gutterSize="100px">
   <mat-grid-tile *ngFor="let product of filteredProducts" [colspan]="1" [rowspan]="1">
     <mat-card>
       <mat-card-header>

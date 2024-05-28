@@ -10,6 +10,8 @@ import {ProductService} from "../../services/product.service";
 export class ProductsListComponent implements OnInit{
   @Input() products: ProductEntity[] = [];
   filteredProducts: ProductEntity[] = [];
+  currentSearchValue: string = '';
+  currentCategory: string = 'All';
 
   constructor(
     private productService: ProductService,
@@ -22,15 +24,27 @@ export class ProductsListComponent implements OnInit{
   private getAllProducts() {
     this.productService.getAll().subscribe((response: any) => {
       this.products = response;
-      this.filteredProducts = response;
+      this.applyFilters();
       console.log(this.products);
     });
   }
 
   filterProducts(searchValue: string) {
-    this.filteredProducts = this.products.filter(product =>
-      product.productName.toLowerCase().includes(searchValue.toLowerCase()) ||
-      product.productDescription.toLowerCase().includes(searchValue.toLowerCase())
-    );
+    this.currentSearchValue = searchValue;
+    this.applyFilters();
+  }
+
+  filterByCategory(category: string) {
+    this.currentCategory = category;
+    this.applyFilters();
+  }
+
+  private applyFilters() {
+    this.filteredProducts = this.products.filter(product => {
+      const matchesSearch = product.productName.toLowerCase().includes(this.currentSearchValue.toLowerCase()) ||
+        product.productDescription.toLowerCase().includes(this.currentSearchValue.toLowerCase());
+      const matchesCategory = this.currentCategory === 'All' || product.productCategory === this.currentCategory;
+      return matchesSearch && matchesCategory;
+    });
   }
 }
