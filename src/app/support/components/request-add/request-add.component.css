@@ -1,0 +1,85 @@
+.support-container {
+  display: flex;
+  border: 1px solid #ccc;
+}
+
+.container {
+  margin: 0 -10px;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+  padding: 100px; /* Ajusta el espacio interno según sea necesario */
+}
+.left-column {
+  margin-right: 10px;
+}
+
+.right-column {
+  margin-left: 10px;
+}
+
+.right-column h1 {
+  font-size: 36px;
+}
+
+.right-column h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.input-row {
+  display: flex;
+}
+
+.input-row > * {
+  flex: 1;
+  margin-right: 10px; /* Ajusta el margen entre los campos si es necesario */
+}
+
+.input-row > :last-child {
+  margin-right: 0; /* Elimina el margen derecho del último campo */
+}
+
+.input-section {
+  margin-top: 20px;
+}
+
+.example-full-width {
+  height: 50px;
+  width: 100%;
+}
+
+.example-form {
+  margin-top: 20px;
+}
+
+.send-button-container {
+  background-color: #06897D; /* Verde agua */
+  padding: 10px 20px; /* Ajusta el espaciado interno según sea necesario */
+  border-radius: 4px; /* Redondea las esquinas */
+  text-align: center;
+}
+
+.send-button-container button {
+  color: white; /* Cambia el color del texto a blanco */
+  border: none; /* Elimina el borde del botón */
+  outline: none; /* Elimina el contorno al enfocar */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+  background-color: transparent; /* Hace que el fondo del botón sea transparente */
+  transition: background-color 0.3s ease; /* Agrega una transición suave */
+}
+
+.send-button-container button:hover {
+  background-color: rgb(7, 166, 152); /* Cambia el color de fondo al pasar el ratón sobre el botón */
+}
+
+button {
+  margin-top: 20px;
+}
+
+.right-column .input-section .mat-form-field {
+  margin-top: 20px;
+  margin-bottom: 20px; /* Agrega espacio vertical entre los inputs */
+}
