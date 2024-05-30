@@ -1,5 +1,6 @@
 .contenedor {
   display: flex;
+  padding-top: 50px;
 }
 
 .colum1, .colum2 {
@@ -81,4 +82,3 @@ mat-divider{
   background-color: cornflowerblue ;
   border-radius: 7px;
 }
-
