@@ -12,8 +12,6 @@ import {ProductsViewComponent} from "./shop/pages/products-view/products-view.co
 import {ProductsListComponent} from "./shop/components/products-list/products-list.component";
 import {VeterinaryListComponent} from "./veterinary/components/veterinary-list/veterinary-list.component";
 import {BookingCreateComponent} from "./booking/components/booking-create/booking-create.component";
-import {BillingViewComponent} from "./billing/pages/billing-view/billing-view.component";
-import {PaymentConfirmationComponent} from "./public/pages/payment-confirmation/payment-confirmation.component";
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -23,8 +21,6 @@ const routes: Routes = [
   { path: 'services', component: ServicesContentViewComponent },
   { path: 'veterinary', component: VeterinaryListComponent },
   { path: 'products', component: ProductsViewComponent },
-  { path: 'billing', component: BillingViewComponent },
-  { path: 'payment-confirmation', component: PaymentConfirmationComponent},
   { path: 'contact-us', component: RequestViewComponent },
   { path: '', pathMatch: 'full', redirectTo: 'login' },
   { path: '**', component: NotFoundComponent },
